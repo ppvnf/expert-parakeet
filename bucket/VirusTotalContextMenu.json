@@ -5,9 +5,9 @@
     "license": "MIT",
     "notes": [
         "Get an API key from VirusTotal.com and put it inside appsettings.json",
-        "Register the context menu handler by right-clicking the VirusTotalContextMenu.exe file and select "Run as Administrator"",
-        "Now you can right-click any file an select "VT Scan" to scan it using VirusTotal",
-        "You can use VirusTotalContextMenu.exe "--register" and "--unregister" command line arguments as well.",
+        "Register the context menu handler by right-clicking the VirusTotalContextMenu.exe file and select 'Run as Administrator'",
+        "Now you can right-click any file an select 'VT Scan' to scan it using VirusTotal",
+        "You can use VirusTotalContextMenu.exe '--register' and '--unregister' command line arguments as well.",
         "VirusTotal also limits the file size to 32 MB.",
         "It sends your file to VirusTotal if they don't already have it."
     ],
