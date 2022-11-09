@@ -13,7 +13,6 @@
     ],
     "url": "https://github.com/Genbox/VirusTotalContextMenu/releases/download/v1.7.0/VirusTotal.Context.Menu.1.7.0.zip",
     "hash": "C15A7623AB2E2C04D4D7FC715C2BF269AE6B48F329D290CF17C5F541DBCF3EBE",
-    "extract_dir": "rel",
     "persist": [
         "appsettings.json"
     ],
