@@ -1,0 +1,31 @@
+{
+    "version": "1.7.0",
+    "homepage": "https://github.com/Genbox/VirusTotalContextMenu",
+    "description": "A context menu that allows you to right click any file in Windows Explorer and scan it using VirusTotal.",
+    "license": "MIT",
+    "notes": [
+        "Get an API key from VirusTotal.com and put it inside appsettings.json",
+        "Register the context menu handler by right-clicking the VirusTotalContextMenu.exe file and select "Run as Administrator"",
+        "Now you can right-click any file an select "VT Scan" to scan it using VirusTotal",
+        "You can use VirusTotalContextMenu.exe "--register" and "--unregister" command line arguments as well.",
+        "VirusTotal also limits the file size to 32 MB.",
+        "It sends your file to VirusTotal if they don't already have it."
+    ],
+    "url": "https://github.com/Genbox/VirusTotalContextMenu/releases/download/v1.7.0/VirusTotal.Context.Menu.1.7.0.zip",
+    "hash": "C15A7623AB2E2C04D4D7FC715C2BF269AE6B48F329D290CF17C5F541DBCF3EBE",
+    "extract_dir": "rel",
+    ],
+    "persist": [
+        "appsettings.json",
+    ],
+    "shortcuts": [
+        [
+            "VirusTotalContextMenu.exe",
+            "VirusTotal Context Menu"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Genbox/VirusTotalContextMenu/releases/download/$version/VirusTotal.Context.Menu.$version.zip"
+    }
+}
