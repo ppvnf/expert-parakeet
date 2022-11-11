@@ -23,6 +23,6 @@
     "persist": "ReduceMemory.ini",
     "checkver": "Reduce\\sMemory\\sv([\\d.]+)",
     "autoupdate": {
-        "url": "https://www.sordum.org/files/download/reduce-memory/ReduceMemory.zip",
+        "url": "https://www.sordum.org/files/download/reduce-memory/ReduceMemory.zip"
     }
 }
