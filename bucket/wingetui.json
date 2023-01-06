@@ -1,13 +1,13 @@
 {
-    "version": "1.5.2",
+    "version": "1.5.3",
     "description": "A GUI to manage Winget and Scoop packages",
     "homepage": "https://github.com/martinet101/WingetUI",
     "license": "LGPL-2.1-or-later",
     "suggest": {
         "vcredist": "extras/vcredist"
     },
-    "url": "https://github.com/ppvnf/expert-parakeet/raw/master/.github/WingetUIInstaller.exe",
-    "hash": "001E268347C4A22CCC7BCB247E84478ED4DD502792C03D7884EFF250F94D26D9",
+    "url": "https://drive.google.com/uc?export=download&id=16oIxE-o9fSbdnhqtNhaxYTSstlQ3hcXL",
+    "hash": "1E38493150109D6C5AF812466CA1BAA86A6755249DD8363D027FCF8BB1DE0307",
     "innosetup": true,
     "shortcuts": [
         [
